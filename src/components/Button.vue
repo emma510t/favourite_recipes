@@ -8,5 +8,5 @@ defineProps({
 </script>
 
 <template>
-    <button class="font-bold uppercase block self-end border-2 border-lime-700 border-solid rounded-md text-lime-700 px-2 py-1 hover:bg-lime-700 hover:text-white">{{ text }}</button>
+    <button class="font-bold uppercase block border-2 border-lime-700 border-solid rounded-lg text-lime-700 px-2 py-1 hover:bg-lime-700 hover:text-white focus:bg-lime-700 focus:text-white transition-colors">{{ text }}</button>
 </template>

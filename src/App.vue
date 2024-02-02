@@ -58,7 +58,7 @@ function changeSortCriteria(newCriteria) {
   <main class="bg-lime-100">
     <div class=" max-w-screen-xl m-auto">
 
-      <Title title="Your Recipes"/>
+      <Title title="My Recipes"/>
       
       <h3>Sort your recipies</h3>
       <div class="flex gap-3 m-auto p">
@@ -71,11 +71,14 @@ function changeSortCriteria(newCriteria) {
        </div>
    
       <section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-5">
-   <RecipesCard v-for="recipe in recipes" :key="recipe.id" :name="recipe.name" :rat="recipe.rating" :time="recipe.prepTimeMinutes+recipe.cookTimeMinutes" :diff="recipe.difficulty" :img="recipe.image"/>
+   <RecipesCard v-for="recipe in recipes" :key="recipe.id" :name="recipe.name" :rat="recipe.rating" :time="recipe.prepTimeMinutes+recipe.cookTimeMinutes" :diff="recipe.difficulty" :img="recipe.image" :serv="recipe.servings"/>
    
       </section>
     </div>
   </main>
+  <footer>
+    <p>recipes.com</p>
+  </footer>
 </template>
 
 <!-- <style scoped>
