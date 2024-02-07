@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
- <h1 class="text-3xl font-bold text-slate-900 text-center headline pb-5 pt-10 uppercase" >{{ title }}</h1>
+ <h1 class="text-3xl font-bold text-slate-900 text-center headline pb-7 pt-10 uppercase" >{{ title }}</h1>
 </template>
 
 <style>

@@ -1,7 +1,7 @@
 <script setup>
 import Button from './Button.vue';
 
-import { ref, defineProps } from 'vue';
+import { ref } from 'vue';
 
 const props = defineProps([
   'name',
